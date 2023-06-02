@@ -1,0 +1,2 @@
+[build]
+  command = "npm run build && node backend/server.js"
