@@ -51,7 +51,6 @@ useEffect(() => {
         alert.success("Review Deleted Successfully");
         history.push("/admin/reviews");
         dispatch({type: DELETE_REVIEW_RESET});
-        console.log(1)
     }
 
   }, [dispatch, alert, error, deleteError, history, isDeleted, productId]);
