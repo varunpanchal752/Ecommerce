@@ -12,9 +12,10 @@ const options = {
   SearchIconElement : MdSearch,
   CartIconElement : MdAddShoppingCart,
   
+  burgerColor : '#9e9e9e',
   burgerColorHover : '#eb4034',
   logo,
-  logoWidth : "20vmax",
+  logoWidth : "15vmax",
   navColor1 : "white",
   logoHoverSize : "10px",
   logoHoverColor : "#eb4034",

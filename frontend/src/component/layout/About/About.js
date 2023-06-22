@@ -1,14 +1,18 @@
 import React from "react";
-import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
+
+import "./aboutSection.css";
+import MetaData from "../../layout/MetaData";
+
 const About = () => {
   const visitLinkedin = () => {
-    window.location = "https://www.linkedin.com/in/varun-kumar-panchal-55a9a41a2/";
+      window.location = "https://www.linkedin.com/in/varun-kumar-panchal-55a9a41a2/";
   };
   return (
     <div className="aboutSection">
+      <MetaData title="ABOUT US -- HANDICRAFTS" />
       <div></div>
       <div className="aboutSectionGradient"></div>
       <div className="aboutSectionContainer">
@@ -26,7 +30,7 @@ const About = () => {
               Visit Linkedin
             </Button>
             <span>
-              This is a sample ecommerce wesbite made by @mevarunnaman.
+              Moffkaiser Handicrafts wesbite made by @mevarunnaman.
             </span>
           </div>
           <div className="aboutSectionContainer2">
@@ -43,7 +47,9 @@ const About = () => {
             </a>
           </div>
         </div>
+
       </div>
+
     </div>
   );
 };

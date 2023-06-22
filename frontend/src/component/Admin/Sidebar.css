@@ -10,7 +10,8 @@
 }
 
 .sidebar > a > img{
-    width: 100%;
+    margin: 0 20%;
+    width: 60%;
     transition: all 0.5s;
 }
 

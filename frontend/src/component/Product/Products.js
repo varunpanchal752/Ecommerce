@@ -12,13 +12,13 @@ import ProductCard from "../Home/ProductCard";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "Wall Decor",
+  "Desk Accessories",
+  "Showpieces & Idols",
+  "Decorative Vases",
+  "Bath",
+  "Pooja Essentials",
+  "More Decor",
 ];
 
 const Products = ({ match }) => {
@@ -66,7 +66,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- ECOMMERCE" />
+          <MetaData title="PRODUCTS -- HANDICRAFTS" />
           <h2 className="productsHeading">Products</h2>
 
           <div className="products">
