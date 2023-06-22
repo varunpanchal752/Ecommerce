@@ -31,7 +31,7 @@ const NewProduct = ({history}) => {
   const categories = [
     "Wall Decor",
     "Desk Accessories",
-    "Showpieces & Idols",
+    "Showpieces And Idols",
     "Decorative Vases",
     "Bath",
     "Pooja Essentials",
@@ -75,8 +75,6 @@ const NewProduct = ({history}) => {
 
   const createProductImagesChange = (e) => {
     const files = Array.from(e.target.files);
-    console.log(e.target.files)
-    console.log(files)
     setImages([]);
     setImagesPreview([]);
 

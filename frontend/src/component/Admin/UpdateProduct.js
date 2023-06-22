@@ -33,7 +33,7 @@ const UpdateProduct = ({history, match}) => {
   const categories = [
     "Wall Decor",
     "Desk Accessories",
-    "Showpieces & Idols",
+    "Showpieces And Idols",
     "Decorative Vases",
     "Bath",
     "Pooja Essentials",

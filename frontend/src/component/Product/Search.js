@@ -31,4 +31,4 @@ const Search = ({history}) => {
     )
 }
 
-export default Search
+export default Search;

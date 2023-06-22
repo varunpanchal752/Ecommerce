@@ -14,7 +14,7 @@ import MetaData from "../layout/MetaData";
 const categories = [
   "Wall Decor",
   "Desk Accessories",
-  "Showpieces & Idols",
+  "Showpieces And Idols",
   "Decorative Vases",
   "Bath",
   "Pooja Essentials",
@@ -27,7 +27,7 @@ const Products = ({ match }) => {
   const alert = useAlert();
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [price, setPrice] = useState([0, 25000]);
+  const [price, setPrice] = useState([0, 5000]);
   const [category, setCategory] = useState("");
   const [ratings, setRatings] = useState(0);
 
@@ -41,7 +41,7 @@ const Products = ({ match }) => {
   } = useSelector((state) => state.products);
 
   const keyword = match.params.keyword;
-
+  
   const priceHandler = (event, newPrice) => {
     setPrice(newPrice);
   };
@@ -89,7 +89,7 @@ const Products = ({ match }) => {
               valueLabelDisplay="auto"
               aria-labelledby="range-slider"
               min={0}
-              max={25000}
+              max={5000}
             />
 
             <Typography>Categories</Typography>
